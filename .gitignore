@@ -1,36 +1,36 @@
+# Environment / secrets
 .env
+.env.*
+!.env.example
+
+# Python
 __pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
 .ipynb_checkpoints/
 
-# ============================================================
-# IDE / EDITORS
-# ============================================================
-
+# IDE
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# ============================================================
-# OS FILES
-# ============================================================
-
+# OS
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# ============================================================
-# LOGS / TEMP FILES
-# ============================================================
-
+# Logs
 *.log
 *.tmp
 *.temp
 
-# ============================================================
-# LOCAL VECTOR DATABASE / INDEXES
-# ============================================================
-
+# Vector stores / local indexes
 faiss_index/
 vector_store/
 chroma_db/
@@ -39,33 +39,14 @@ chroma_db/
 *.pkl
 *.pickle
 
-# ============================================================
-# LOCAL DATABASE / CACHE FILES
-# ============================================================
-
+# Database
 *.sqlite
 *.sqlite3
 
-# ============================================================
-# PYTHON BUILD FILES
-# ============================================================
-
+# Build
 build/
 dist/
 *.egg-info/
 
-# ============================================================
-# LOCAL DOCUMENTS
-# ============================================================
-
-# Uncomment this if your documents are private
-# documents/
-
-# ============================================================
-# STREAMLIT
-# ============================================================
-
+# Streamlit secrets
 .streamlit/secrets.toml
-
-documents/*
-!documents/.gitkeep
