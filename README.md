@@ -1,6 +1,6 @@
 https://arxiv.org/pdf/2401.15884
 
-# Corrective RAG (CRAG) with Groq GPT-OSS 20B
+# Corrective RAG (CRAG)
 
 A **Corrective Retrieval-Augmented Generation (CRAG)** system built with **LangGraph** that evaluates retrieved document chunks, detects weak retrieval, and uses **Tavily web search** as a fallback when the local knowledge is insufficient.
 
